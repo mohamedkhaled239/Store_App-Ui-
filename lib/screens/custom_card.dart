@@ -3,8 +3,8 @@ import 'package:app_store/screens/update_product_page.dart';
 import 'package:flutter/material.dart';
 
 
-class customCard extends StatelessWidget {
-  customCard({
+class CustomCard extends StatelessWidget {
+  CustomCard({
     required this.product,
     Key? key,
   }) : super(key: key);

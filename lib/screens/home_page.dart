@@ -45,7 +45,7 @@ class HomePage extends StatelessWidget {
                 mainAxisSpacing: 30,
               ),
               itemBuilder: (context, index) {
-                return customCard(product: products[index],);
+                return CustomCard(product: products[index],);
               });
                 }
                 else{
